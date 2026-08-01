@@ -1,0 +1,13 @@
+{
+  "installCommand": "npm install",
+  "buildCommand": "npm run build",
+  "outputDirectory": ".",
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rewrites": [
+    {
+      "source": "/((?!assets/|css/|javascript/|robots.txt|favicon.ico).*)",
+      "destination": "/index.html"
+    }
+  ]
+}

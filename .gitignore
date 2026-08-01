@@ -1,5 +1,9 @@
 .vscode/
 .idea/
 node_modules/
+dist/
+.env
+.env.local
+.vercel/
 .DS_Store
 Thumbs.db

@@ -1,0 +1,14 @@
+{
+  "name": "camila-lima-beauty-hair",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Site institucional estático da Camila Lima Beauty Hair.",
+  "scripts": {
+    "dev": "node scripts/preview.js",
+    "build": "node scripts/validate-site.js",
+    "preview": "node scripts/preview.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
